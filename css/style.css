@@ -2,9 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif, 'Baloo Chettan 2', cursive;
-    /* LO SIGUIENTE ES PARA QUE SE VEA COMO DESDE UNA TABLET */
-    width: 750px;
-    height: 580px;
     
 }
 
