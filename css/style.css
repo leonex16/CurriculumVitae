@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif, 'Baloo Chettan 2', cursive;
+}
+
+h4 {
+    font-weight: 400;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    color: #f8f4f4;
+}
+
+.tamano-icono-hobbies {
+    height: 40px;
+    width: 40px;
+}
+
+.tamano-icono-contacto {
+    height: 30px;
+    width: 30px;
+    margin: 0rem 0.5rem 0rem 0rem;
+}
+
+.foto-presentacion {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+/* TODO EL CONTENIDO PERTENECIENTE A LA PARTE IZQUIERDA LO DEJA EN COLUMNAS */
+.display-flex-flexdirection-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* EL LA SECCION DE CONTACTO, HACE QUE LOS ICONOS CON LA DESCRIPCIÓN SE VISUALICEN EN FILA */
+.display-flex {
+    display: flex;
+}
+
+/* CENTRA IMAGEN */
+.display-flex-justifycontent-center {
+    display: flex;
+    justify-content: center;
+}
+
+.fondo-contacto {
+    height: 30px;
+    background-color: #94d231;
+}
+
+.fondo-idioma {
+    height: 30px;
+    background-color: #1c91e3;
+}
+
+.fondo-habilidades {
+    height: 30px;
+    background-color: #fb1846;
+}
+
+.fondo-hobbies {
+    height: 30px;
+    background-color: #fb9833;
+}
+
+/* ALINEA VERTICALMENTE LOS SPAN */
+.display-flex-alingitems-center {
+    display: flex;
+    align-items: center;
+}
+
+/* BARRA DE PROGRESO */
+.barra-progreso-trasera {
+    background-color: #e4e4e5;
+    height: 5px;
+    width: 90%;
+}
+
+.barra-progreso-frontal {
+    display: block;
+    height: 100%;
+}
+
+/* BARRA DE PROGRESO */
+.linea-vertical-sombra {
+    box-shadow: 0.5px 0px 13px 2px rgb(0, 0, 0) inset;
+}
+
+.tamano-icono-detalle {
+    height: 50px;
+    width: 50px;
+    float: right;
+    opacity: 0.5;
+}
+
+.letra-fecha-lugar{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.letra-fecha{
+    display: flex;
+    align-items: center;
+    margin-right: -2rem;
+}
+.letra-lugar{
+    color: #72c4ea;
+}
+.subtitulos{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.parrafo{
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
